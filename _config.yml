@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: lolozhanghq@gmail.com
 description: A blog about rendering keyboards
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: lolo_zhang
 github_username: lolozhang
 theme: minima
