@@ -1,0 +1,30 @@
+---
+title: When September ends
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: lolozhanghq@gmail.com
+description: A blog about rendering keyboards
+baseurl: 
+url: 
+twitter_username: lolo_zhang
+github_username: lolozhang
+theme: minima
+plugins:
+- jekyll-feed
